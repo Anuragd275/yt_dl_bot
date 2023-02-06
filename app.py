@@ -1,5 +1,4 @@
 from pytube import YouTube
-import os
 
 #Getting video details
 
