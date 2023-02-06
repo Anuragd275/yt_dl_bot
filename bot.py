@@ -26,5 +26,6 @@ def video_dwonloader(message):
     the_audio_file = audio_dl(link)
     audio_to_send = open(f'{file_title}.mp4', 'rb')
     bot.send_audio(chat_id, audio_to_send)
+    audio_to_send.close()
 
 bot.infinity_polling()
