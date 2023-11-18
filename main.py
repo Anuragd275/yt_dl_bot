@@ -58,4 +58,18 @@ def video_downloader(message):
         bot.send_message("Invalid resolution selection ;_;")
 
 
+# Handle other commands
+@bot.message_handler(commands=["help"])
+def help_message(message):
+    chat_id = message.chat.id
+    text = "If you are facing problem while using this bot, refer to this post for more example"
+    bot.send_message(chat_id, text)
+
+@bot.message_handler(commands=["about"])
+def about_message(message):
+    chat_id = message.chat.id
+    text = "This project was started as a side project, then it got picked for a full fledged project by my friends, and here we are..."
+    bot.send_message(chat_id, text)
+
+
 bot.infinity_polling()
