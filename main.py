@@ -68,14 +68,14 @@ def help_message(message):
 @bot.message_handler(commands=["about"])
 def about_message(message):
     chat_id = message.chat.id
-    text = "This project was started as a side project, then it got picked for a full fledged project by my friends, and here we are...\n\n Anurag Dubey \nAkash Raj Nigam \nAishita Saxena \nAastha Khare"
+    text = "This project was started as a side project, then it got picked for a full fledged project by my friends, and here we are...\n\nAnurag Dubey \nAkash Raj Nigam \nAishita Saxena \nAastha Khare"
     bot.send_message(chat_id, text)
 
 @bot.message_handler(commands=["repo"])
 def repo_message(message):
     chat_id = message.chat.id
-    text = "Here is the GitHub Repository for this Bot:\n\n[Anuragd275/yt_dl/bot](https://github.com/Anuragd275/yt_dl_bot)"
-    bot.send_message(chat_id, text, parse_mode="md")
+    text = "Here is the GitHub Repository for this Bot:\n\nhttps://github.com/Anuragd275/yt_dl_bot"
+    bot.send_message(chat_id, text)
 
 @bot.message_handler(commands=["playlist", "audioplaylist"])
 def playlist_message(message):
