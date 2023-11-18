@@ -5,7 +5,7 @@ TOKEN = "6977590067:AAGYgmFWZTk3RsnDricMtwRr10LEsPWSius"
 
 bot = telebot.TeleBot(TOKEN)
 
-@bot.message_handler(commands=["start", "help"])
+@bot.message_handler(commands=["start"])
 def welcome_message(message):
     chat_id = message.chat.id
     bot.send_message(chat_id, "Hi, I can download YouTube videos for you :)")
