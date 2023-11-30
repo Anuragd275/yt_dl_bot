@@ -43,7 +43,7 @@ A Telegram Bot to download Youtube videos using [pytube](https://github.com/pytu
 ## Team
 
 - [Anurag Dubey](https://github.com/Anuragd275) (Owner)
-- [Akash Raj Nigam]() (Contributor)
+- [Akash Raj Nigam](your profile link) (Contributor)
 - [Aishita Saxena](https://www.linkedin.com/in/aishita-saxena-8b438121b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) (Contributor)
 - [Aastha Khare]() (Contributor)
 
