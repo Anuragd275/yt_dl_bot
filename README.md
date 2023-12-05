@@ -42,8 +42,8 @@ A Telegram Bot to download Youtube videos using [pytube](https://github.com/pytu
 
 ## Team
 
-- [Anurag Dubey](https://github.com/Anuragd275) (Owner)
-- [Akash Raj Nigam](your profile link) (Contributor)
+- [Anurag Dubey](https://www.linkedin.com/in/anuragd27500/) (Owner)
+- [Akash Raj Nigam](https://www.linkedin.com/in/akash-raj-nigam-46b348192/) (Contributor)
 - [Aishita Saxena](https://www.linkedin.com/in/aishita-saxena-8b438121b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) (Contributor)
 - [Aastha Khare](https://www.linkedin.com/in/aastha-khare-9b44a7230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) (Contributor)
 
